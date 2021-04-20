@@ -8,7 +8,7 @@ describe('categoresAPI', () => {
             'category': 'Horror'
         })
         expect(cat.data.category).toBe('Horror')
-    })
+    })  
 
     test('Get all categories', async () => {
         return axios.get(baseurl)

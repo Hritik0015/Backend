@@ -6,8 +6,8 @@ describe('Users Route Test', () => {
     let token;
     test('sign up of new user', () => {
         return axios.post(baseurl + '/signup', {
-            firstname: 'Ayush',
-            lastname: 'Ghimire',
+            firstname: 'Hritik',
+            lastname: 'Neupane',
             username: 'username10',
             password: 'mymovies'
         }).then((response) => {
